@@ -1,3 +1,3 @@
 # Istic-Android-ejercicios
 
-JOSEPH Julissa
+Julissa Joseph
