@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        textoFijo.text = "casi casi"
                
     }
 }

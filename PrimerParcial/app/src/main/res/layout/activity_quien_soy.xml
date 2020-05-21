@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".QuienSoy">
+
+    <Button
+        android:id="@+id/BtnIr3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="616dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="292dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:text="JOSEPH"
+        android:textColor="@color/cardview_light_background"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="295dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:text="123456789"
+        android:textColor="@color/cardview_light_background"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="305dp"
+        android:layout_height="213dp"
+        app:srcCompat="@drawable/jj"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="291dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="https://github.com/julissa95/Istic-Android-ejercicios"
+        android:textColor="@color/cardview_light_background"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="106dp"
+        android:layout_height="48dp"
+        android:text="Volver"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="616dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="293dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:text="Julissa"
+        android:textColor="@color/cardview_light_background"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
